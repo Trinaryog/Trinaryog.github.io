@@ -1,0 +1,8 @@
+.wrapper
+{
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+
+.right-align { text-align: right; }
