@@ -14,5 +14,10 @@ h1, h2, h3, h4, h5, h6, .font-header
 	left: 25%;
 }
 
-/*Psuedo-classes*/
+/*Psuedo-class*/
 .right-align { text-align: right; }
+
+@media screen and (max-width: 650px)	/*Remove padding around content when the page gets too small.*/
+{
+	.wrapper { width: 100%; left: 0%; }
+}
