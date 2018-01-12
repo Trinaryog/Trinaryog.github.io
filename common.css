@@ -1,3 +1,12 @@
+body
+{
+	font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3, h4, h5, h6, .font-header
+{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 .wrapper
 {
 	width: 50%;
@@ -5,4 +14,5 @@
 	left: 25%;
 }
 
+/*Psuedo-classes*/
 .right-align { text-align: right; }
